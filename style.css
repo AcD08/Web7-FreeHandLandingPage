@@ -7,26 +7,30 @@
     box-sizing: border-box;
 }
 
+body {
+  width: 1440px;
+}
+
+
 /* Navbar */
   nav {
     display: flex;
-    justify-content: space-evenly;
-    /* padding: 20px 0; */
+    justify-content: space-around;
+    width: 1155px;
+    height: 86px;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    /* margin-top: 32px;
-    margin-left: 158px;
-    margin-right: 127px; */
-    margin: 32px 127px 118px 158px;
+    margin: 32px 127px 0px 158px;
+    flex-wrap: wrap;
   }
 
   
   nav ul {
     display: flex;
     list-style: none;
-    width: 35%;
+    width: 40%;
     justify-content: space-evenly;
   }
   
@@ -42,9 +46,8 @@
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     cursor: pointer;
-    font-family: inherit;
     font-weight: 500;
-    margin: -48px;
+    margin-right: -75px;
   }
 
   .button1 {
@@ -59,10 +62,135 @@
     border-radius: 8px;
   }
 
-  /* nav::after {
+  nav::after {
     content: '';
     display: block;
+    margin-top: 54px;
+    margin-right: -90px;
+    margin-left: 5px;
+    width: inherit;
     border-bottom: 1px solid #EFEEF3;
-    width: 100%;
-  } */
+  }
+
+  /* Banner Section */
+  .banner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 54px 101px 0px 205px;
+    flex-wrap: nowrap;
+    width: 1181px;
+  }
+
+  .text-banner {
+    margin-right: 101px;
+  }
+
+  .header-banner {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px #000000;
+    text-shadow: 0 4px 4px #00000025;
+  }
+
+  .paragraph-banner {
+    font-family: "Roboto", sans-serif;
+    line-height: 36px;
+    font-size: 19px;
+    color: #183B56;
+    margin-bottom: 31px;
+  }
+
+  .button-banner {
+    border: none;
+    height: 48px;
+    width: 179px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+
+  .button1-banner {
+    border-radius: 8px;
+    background-color: #007FFC;
+    color: white;
+    line-height: 19px;
+  }
+
+  .button2-banner {
+    border-radius: 8px;
+    border: 2px solid #007FFC;
+    background-color: white;
+    color: #007FFC;
+  }
+
+  .img-banner {
+    border-radius: 8px;
+    position: relative;
+  }
+
+  .next-button {
+    width: 55px;
+    height: 55px;
+    background-color: #16133D;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .next-button-left {
+    position: relative;
+    top: -240px;
+    left: -27px;
+  }
+
+  .next-button-right {
+    position: relative;
+    top: -295px;
+    right: -550px;
+  }
+
+  /* Service Section */
+
+  .service {
+    margin: 120px 101px 0 205px;
+  }
+
+  .services-header-small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
+
+  .services-header-big {
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600px;
+    color: #16133D;
+    margin-bottom: 6px;
+  }
+
+  .paragraph-service {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #16133D;
+    margin-bottom: 61px;
+  }
+
 
