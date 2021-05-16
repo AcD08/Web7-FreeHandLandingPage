@@ -161,7 +161,7 @@ body {
   /* Service Section */
 
   .service {
-    margin: 120px 101px 0 205px;
+    margin: 100px 101px 0 205px;
   }
 
   .services-header-small {
@@ -192,5 +192,151 @@ body {
     color: #16133D;
     margin-bottom: 61px;
   }
+
+  .service-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 61px;
+  }
+
+  .services {
+    padding: 40px;
+    height: 347px;
+    width: 360px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAF4;
+    margin-bottom: 64px;
+    color: #16133D;
+  }
+
+  .services-logo {
+    margin-bottom: 28px;
+    border: 1px solid #1566d810;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+  }
+
+  .services-logo1 {
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+
+  .services-logo2 {
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+
+  .services-logo3 {
+    margin-left: 18px;
+    margin-top: 12px;
+  }
+
+  .services-name {
+    margin-bottom: 14px;
+  }
+
+  .paragraph-services {
+    margin-bottom: 29px;
+  }
+
+  /* Features Section */
+
+  .features {
+    margin: 100px 101px 0 205px;
+  }
+
+  .features-header-small {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #7690A8;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+  }
+
+  .features-header-big {
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600px;
+    color: #16133D;
+    margin-bottom: 6px;
+  }
+
+  .paragraph-features {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #7690A8;
+    margin-bottom: 61px;
+  }
+
+  .features-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .features-1 {
+    border: 1px solid #00000012.5;
+    width: 555px;
+    height: 485px;
+    border-radius: 8px;
+  }
+
+  .features-2 {
+    border: 1px solid #00000012.5;
+    width: 555px;
+    height: 485px;
+    border-radius: 8px;
+  }
+
+  .img-features {
+    border-radius: 8px;
+  }
+
+  .text-photo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: -166px 56px 64px 48px;
+    font-size: 36px;
+  }
+
+  /* Pricing Section */
+
+  .pricing {
+    margin: 160px 101px 0 205px;
+  }
+
+  .pricing-header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 600;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    color: #16133D;
+    margin-bottom: 7px;
+  }
+
+  .pricing-paragraph {
+    margin-bottom: 80px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5A7184;
+  }
+
+
+
+
+
 
 
