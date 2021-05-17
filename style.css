@@ -334,6 +334,203 @@ body {
     color: #5A7184;
   }
 
+  .price-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+  }
+
+  .price {
+    text-align: center;
+    padding: 50px;
+    height: 436px;
+    width: 360px;
+    border-radius: 0 0 8px 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5EAF4;
+    box-shadow: 0 10px 35px #00000003;
+    color: #16133D;
+  }
+
+  .price-name {
+    font-family: 'Roboto', sans-serif;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    color: #16133D;
+    font-size: 24px;
+  }
+
+  .price-dollar {
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    font-weight: 500;
+  }
+
+  .price-dollar-1 {
+    color: #007FFC;
+  }
+
+  .price-dollar-2 {
+    color: #52C29D;
+  }
+
+  .price-dollar-3 {
+    color: #F04D5D;
+  }
+
+  .price-description {
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5A7184;
+  }
+
+  .paragraph-price {
+    margin-bottom: 56px;
+    color: #7690A8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .price--one {
+    border-top: 4px solid #007FFC;
+    width: 360px;
+  }
+
+  .price--two {
+    border-top: 4px solid #52C29D;
+    width: 360px;
+  }
+
+  .price--three {
+    border-top: 4px solid #F04D5D;
+    width: 360px;
+  }
+
+  .button-price {
+    border: none;
+    height: 48px;
+    width: 171px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 44px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 50px;
+  }
+
+  .button-price-1 {
+    border: 2px solid #16133D;
+    background-color: white;
+  }
+
+  .button-price-2 {
+    border: 2px solid #16133D;
+    background-color: white;
+  }
+
+  .button-price-3 {
+    background-color: #16133D;
+    color: white;
+  }
+
+  /* Ads Section */
+
+  .ads {
+    margin: 200px 101px 0 205px;
+    width: 1150px;
+    height: 380px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 95px;
+    flex-wrap: wrap;
+    text-align: center;
+    background: url('img/banner.png'), #007FFC;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ads-name {
+    font-family: 'Roboto', sans-serif;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 19px;
+    color: #FFFFFF;
+  }
+
+  .paragraph-ads {
+    color: #ffffff60;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 63px;
+    width: 100%;
+  }
+
+  .button-ads {
+    border: none;
+    height: 48px;
+    width: 171px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: auto;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 50px;
+  }
+
+  .button-ads-1 {
+    border: 2px solid #FFFFFF;
+    color: #183B56;
+    margin-right: 20px;
+  }
+
+  .button-ads-2 {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+  }
+
+  /* Footer Section */
+
+  .footer {
+    /* width: 1519px; */
+    width: 100%;
+    height: 573px;
+    background-color: #16133D;
+    margin-top: 200px;
+  }
+
+
+
+
+
+
+
+  /* Responsive Breakpoint */
+
+  /* Smartphone */
+  @media (min-width: 576px) {
+
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) {
+
+  }
+
 
 
 
