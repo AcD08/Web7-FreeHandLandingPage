@@ -13,14 +13,24 @@
       <div class="logo">
         <img src="img/Logo.png" alt="Logo-FreeHand">
       </div>
+      <div class="menu-hamburg">
         <ul class="unordered-list">
           <li><a class="nav-link" href="#">Home</a></li>
           <li><a class="nav-link" href="#">Potfolio</a></li>
           <li><a class="nav-link" href="#">Pages</a></li>
           <li><a class="nav-link" href="#">Blog</a></li>
         </ul>
-          <button class="button button1"><span>Sign In</span></button>
-          <button class="button button2"><span>Login</span></button>
+        <div class="button-navbar">
+          <button class="btn btn-sign"><span>Sign In</span></button>
+          <button class="btn btn-login"><span>Login</span></button>
+        </div>
+        </div>
+          <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       </nav>
       <!-- Banner Section -->
       <section class="banner">
@@ -31,7 +41,7 @@
           <button class="btn btn-outline-primary"><span>Learn More</span></button>
         </div>
         <div class="img-banner">
-          <img src="img/img-banner.png" alt="img-banner">
+          <img src="img/img-banner.png" alt="img-banner" class="pic-banner">
           <div class="btn-carousel-controls btn-next">
             <img src="img/next-button-left.png" alt="next-button-left">
           </div>
@@ -182,5 +192,16 @@
           <p>Copyright © 2020. Crafted with love.</p>
         </div>
       </section>
+
+      <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('.menu-hamburg');
+    
+        menuToggle.addEventListener('click', function () {
+            nav
+                .classList
+                .toggle('slide');
+        });
+    </script>
 </body>
 </html>
